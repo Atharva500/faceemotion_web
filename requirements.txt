@@ -4,5 +4,5 @@ keras==2.5.0rc0
 pandas==1.2.2
 numpy==1.19.2
 h5py==3.1.0
-cv2==4.5.1
+opencv-python==4.5.1
 gunicorn==19.9.0
