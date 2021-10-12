@@ -1,5 +1,4 @@
 from flask import Flask,request,Response,render_template
-from tensorflow import keras
 from keras.models import load_model
 from keras.preprocessing.image import img_to_array
 from keras.preprocessing import image
