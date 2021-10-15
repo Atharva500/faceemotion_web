@@ -7,7 +7,7 @@ import numpy as np
 import h5py
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('cv2.CAP_V4L2')
 face_classifier = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
 classifier = load_model(r'Emotion_little_vgg.h5')
 
